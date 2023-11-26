@@ -25,9 +25,12 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+  place-items: center; 
   min-width: 320px;
   min-height: 100vh;
+  /* background-color: #7cbba1; */
+  background: rgb(7,20,10);
+  background: linear-gradient(90deg, rgba(7,20,10,1) 0%, rgba(9,90,121,1) 35%, rgba(0,255,201,1) 100%);
 }
 
 h1 {
